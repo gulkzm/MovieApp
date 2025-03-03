@@ -29,9 +29,11 @@ struct ActorData: Codable, MovieCellProtocol {
     let popularity: Double?
     let profilePath: String?
     let knownFor: [KnownFor]?
+    let status: String
     
     var titleText: String {
-        name ?? ""
+//        name ?? ""
+        status ?? ""
     }
     
     var imageURL: String {
@@ -46,6 +48,7 @@ struct ActorData: Codable, MovieCellProtocol {
         case popularity
         case profilePath = "profile_path"
         case knownFor = "known_for"
+        case status
     }
 }
 
