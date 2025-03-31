@@ -20,6 +20,20 @@
 		241FA0B42D6DDCDA00D60426 /* MovieManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241FA0B32D6DDCDA00D60426 /* MovieManager.swift */; };
 		241FA0B62D718A8400D60426 /* ActorMockManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241FA0B52D718A8400D60426 /* ActorMockManager.swift */; };
 		241FA0BC2D718BDB00D60426 /* Actor.json in Resources */ = {isa = PBXBuildFile; fileRef = 241FA0BA2D718BDB00D60426 /* Actor.json */; };
+		241FA0BE2D76A5A100D60426 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 241FA0BD2D76A5A100D60426 /* GoogleService-Info.plist */; };
+		241FA0C12D76A92300D60426 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 241FA0C02D76A92300D60426 /* FirebaseAuth */; };
+		241FA0C32D76A92300D60426 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 241FA0C22D76A92300D60426 /* FirebaseCrashlytics */; };
+		241FA0C52D76A92300D60426 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 241FA0C42D76A92300D60426 /* FirebaseFirestore */; };
+		241FA0C72D76A92300D60426 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 241FA0C62D76A92300D60426 /* FirebaseStorage */; };
+		241FA0C92D76D79B00D60426 /* AuthController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241FA0C82D76D79B00D60426 /* AuthController.swift */; };
+		241FA0CD2D79787000D60426 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241FA0CC2D79787000D60426 /* AuthManager.swift */; };
+		241FA0D02D7F71BD00D60426 /* MovieDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241FA0CF2D7F71BD00D60426 /* MovieDetailController.swift */; };
+		241FA0D22D7F73AA00D60426 /* FirestoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241FA0D12D7F73AA00D60426 /* FirestoreManager.swift */; };
+		241FA0D52D802B3400D60426 /* FavoritesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241FA0D42D802B3400D60426 /* FavoritesController.swift */; };
+		241FA0D72D80CA2600D60426 /* SeeAllViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241FA0D62D80CA2600D60426 /* SeeAllViewModel.swift */; };
+		24EBF6732D88463300DE015E /* MovieDetailCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EBF6722D88463300DE015E /* MovieDetailCoordinator.swift */; };
+		24EBF6752D88464A00DE015E /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EBF6742D88464A00DE015E /* Coordinator.swift */; };
+		24EBF6792D894B6400DE015E /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EBF6782D894B6400DE015E /* AppCoordinator.swift */; };
 		24F43A382D5355AD00011EDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F43A372D5355AD00011EDB /* AppDelegate.swift */; };
 		24F43A3A2D5355AD00011EDB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F43A392D5355AD00011EDB /* SceneDelegate.swift */; };
 		24F43A3F2D5355AD00011EDB /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 24F43A3E2D5355AD00011EDB /* Base */; };
@@ -68,6 +82,16 @@
 		241FA0B32D6DDCDA00D60426 /* MovieManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieManager.swift; sourceTree = "<group>"; };
 		241FA0B52D718A8400D60426 /* ActorMockManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorMockManager.swift; sourceTree = "<group>"; };
 		241FA0BB2D718BDB00D60426 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = en; path = en.lproj/Actor.json; sourceTree = "<group>"; };
+		241FA0BD2D76A5A100D60426 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		241FA0C82D76D79B00D60426 /* AuthController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthController.swift; sourceTree = "<group>"; };
+		241FA0CC2D79787000D60426 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		241FA0CF2D7F71BD00D60426 /* MovieDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailController.swift; sourceTree = "<group>"; };
+		241FA0D12D7F73AA00D60426 /* FirestoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreManager.swift; sourceTree = "<group>"; };
+		241FA0D42D802B3400D60426 /* FavoritesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesController.swift; sourceTree = "<group>"; };
+		241FA0D62D80CA2600D60426 /* SeeAllViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeAllViewModel.swift; sourceTree = "<group>"; };
+		24EBF6722D88463300DE015E /* MovieDetailCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailCoordinator.swift; sourceTree = "<group>"; };
+		24EBF6742D88464A00DE015E /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		24EBF6782D894B6400DE015E /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		24F43A342D5355AD00011EDB /* TheMovieApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheMovieApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24F43A372D5355AD00011EDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24F43A392D5355AD00011EDB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -95,7 +119,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				241FA0952D5E6E3200D60426 /* Kingfisher in Frameworks */,
+				241FA0C32D76A92300D60426 /* FirebaseCrashlytics in Frameworks */,
+				241FA0C12D76A92300D60426 /* FirebaseAuth in Frameworks */,
+				241FA0C52D76A92300D60426 /* FirebaseFirestore in Frameworks */,
 				24F43A7E2D55D76C00011EDB /* Alamofire in Frameworks */,
+				241FA0C72D76A92300D60426 /* FirebaseStorage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				241FA0912D59D76000D60426 /* SeeAllController.swift */,
+				241FA0D62D80CA2600D60426 /* SeeAllViewModel.swift */,
 			);
 			path = SeeAll;
 			sourceTree = "<group>";
@@ -154,6 +183,40 @@
 			path = Movie;
 			sourceTree = "<group>";
 		};
+		241FA0CA2D76D7DB00D60426 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				241FA0C82D76D79B00D60426 /* AuthController.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		241FA0CB2D79784200D60426 /* FirebaseManager */ = {
+			isa = PBXGroup;
+			children = (
+				241FA0CC2D79787000D60426 /* AuthManager.swift */,
+				241FA0D12D7F73AA00D60426 /* FirestoreManager.swift */,
+			);
+			path = FirebaseManager;
+			sourceTree = "<group>";
+		};
+		241FA0CE2D7F718E00D60426 /* MovieDetail */ = {
+			isa = PBXGroup;
+			children = (
+				241FA0CF2D7F71BD00D60426 /* MovieDetailController.swift */,
+				24EBF6722D88463300DE015E /* MovieDetailCoordinator.swift */,
+			);
+			path = MovieDetail;
+			sourceTree = "<group>";
+		};
+		241FA0D32D802B1A00D60426 /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				241FA0D42D802B3400D60426 /* FavoritesController.swift */,
+			);
+			path = Favorites;
+			sourceTree = "<group>";
+		};
 		24F43A2B2D5355AD00011EDB = {
 			isa = PBXGroup;
 			children = (
@@ -178,6 +241,7 @@
 			isa = PBXGroup;
 			children = (
 				24F43A6C2D5389A600011EDB /* App */,
+				241FA0CB2D79784200D60426 /* FirebaseManager */,
 				24F43A6E2D5389E100011EDB /* Helper */,
 				24F43A712D538A1D00011EDB /* Model */,
 				24F43A6F2D5389FC00011EDB /* Network */,
@@ -185,8 +249,10 @@
 				24F43A6D2D5389C900011EDB /* Scene */,
 				24F43A402D5355AF00011EDB /* Assets.xcassets */,
 				24F43A452D5355AF00011EDB /* Info.plist */,
+				241FA0BD2D76A5A100D60426 /* GoogleService-Info.plist */,
 				24F43A3D2D5355AD00011EDB /* Main.storyboard */,
 				24F43A422D5355AF00011EDB /* LaunchScreen.storyboard */,
+				24EBF6782D894B6400DE015E /* AppCoordinator.swift */,
 			);
 			path = TheMovieApp;
 			sourceTree = "<group>";
@@ -231,7 +297,10 @@
 			isa = PBXGroup;
 			children = (
 				241FA0982D62570500D60426 /* Actor */,
+				241FA0CA2D76D7DB00D60426 /* Auth */,
+				241FA0D32D802B1A00D60426 /* Favorites */,
 				24F43A722D538B0900011EDB /* Home */,
+				241FA0CE2D7F718E00D60426 /* MovieDetail */,
 				241FA08D2D59D70500D60426 /* SeeAll */,
 			);
 			path = Scene;
@@ -241,6 +310,7 @@
 			isa = PBXGroup;
 			children = (
 				241FA0962D5F2EB700D60426 /* Extension.swift */,
+				24EBF6742D88464A00DE015E /* Coordinator.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -300,6 +370,10 @@
 			packageProductDependencies = (
 				24F43A7D2D55D76C00011EDB /* Alamofire */,
 				241FA0942D5E6E3200D60426 /* Kingfisher */,
+				241FA0C02D76A92300D60426 /* FirebaseAuth */,
+				241FA0C22D76A92300D60426 /* FirebaseCrashlytics */,
+				241FA0C42D76A92300D60426 /* FirebaseFirestore */,
+				241FA0C62D76A92300D60426 /* FirebaseStorage */,
 			);
 			productName = TheMovieApp;
 			productReference = 24F43A342D5355AD00011EDB /* TheMovieApp.app */;
@@ -376,6 +450,7 @@
 			packageReferences = (
 				24F43A7C2D55D76C00011EDB /* XCRemoteSwiftPackageReference "Alamofire" */,
 				241FA0932D5E6E3200D60426 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				241FA0BF2D76A92200D60426 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = 24F43A352D5355AD00011EDB /* Products */;
 			projectDirPath = "";
@@ -395,6 +470,7 @@
 			files = (
 				24F43A412D5355AF00011EDB /* Assets.xcassets in Resources */,
 				24F43A442D5355AF00011EDB /* Base in Resources */,
+				241FA0BE2D76A5A100D60426 /* GoogleService-Info.plist in Resources */,
 				24F43A3F2D5355AD00011EDB /* Base in Resources */,
 				241FA0BC2D718BDB00D60426 /* Actor.json in Resources */,
 			);
@@ -423,11 +499,15 @@
 			files = (
 				241FA0922D59D76000D60426 /* SeeAllController.swift in Sources */,
 				24F43A802D55F22400011EDB /* Movie.swift in Sources */,
+				241FA0D72D80CA2600D60426 /* SeeAllViewModel.swift in Sources */,
+				241FA0D52D802B3400D60426 /* FavoritesController.swift in Sources */,
 				241FA0AA2D6367EC00D60426 /* ImageLabelCell.swift in Sources */,
 				241FA09E2D62573F00D60426 /* ActorController.swift in Sources */,
 				24F43A842D59006C00011EDB /* NetworkHelper.swift in Sources */,
 				241FA0972D5F2EB700D60426 /* Extension.swift in Sources */,
+				24EBF6792D894B6400DE015E /* AppCoordinator.swift in Sources */,
 				241FA09C2D62572C00D60426 /* ActorViewModel.swift in Sources */,
+				241FA0D22D7F73AA00D60426 /* FirestoreManager.swift in Sources */,
 				241FA0B42D6DDCDA00D60426 /* MovieManager.swift in Sources */,
 				241FA09A2D62571900D60426 /* Actor.swift in Sources */,
 				241FA0AD2D64603100D60426 /* ActorEndpoint.swift in Sources */,
@@ -438,8 +518,13 @@
 				24F43A7A2D54E3A700011EDB /* HomeCell.swift in Sources */,
 				241FA0B02D64605E00D60426 /* MovieEndpoint.swift in Sources */,
 				24F43A6B2D53899600011EDB /* NetworkManager.swift in Sources */,
+				24EBF6752D88464A00DE015E /* Coordinator.swift in Sources */,
+				241FA0D02D7F71BD00D60426 /* MovieDetailController.swift in Sources */,
 				24F43A762D538B3A00011EDB /* HomeController.swift in Sources */,
 				24F43A742D538B2900011EDB /* HomeViewModel.swift in Sources */,
+				241FA0CD2D79787000D60426 /* AuthManager.swift in Sources */,
+				24EBF6732D88463300DE015E /* MovieDetailCoordinator.swift in Sources */,
+				241FA0C92D76D79B00D60426 /* AuthController.swift in Sources */,
 				24F43A3A2D5355AD00011EDB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -799,6 +884,14 @@
 				minimumVersion = 8.2.0;
 			};
 		};
+		241FA0BF2D76A92200D60426 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.9.0;
+			};
+		};
 		24F43A7C2D55D76C00011EDB /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
@@ -814,6 +907,26 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 241FA0932D5E6E3200D60426 /* XCRemoteSwiftPackageReference "Kingfisher" */;
 			productName = Kingfisher;
+		};
+		241FA0C02D76A92300D60426 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 241FA0BF2D76A92200D60426 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		241FA0C22D76A92300D60426 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 241FA0BF2D76A92200D60426 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		241FA0C42D76A92300D60426 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 241FA0BF2D76A92200D60426 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		241FA0C62D76A92300D60426 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 241FA0BF2D76A92200D60426 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
 		};
 		24F43A7D2D55D76C00011EDB /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;

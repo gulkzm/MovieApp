@@ -16,3 +16,12 @@ extension UIImageView {
         self.kf.setImage(with: url)
     }
 }
+
+extension UIViewController {
+    func showAlert(title: String = "Error", message: String? = nil, actionTitle: String = "Ok") {
+        let controller = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        let action = UIAlertAction(title: actionTitle, style: .default)
+        controller.addAction(action)
+        present(controller, animated: true)
+    }
+}

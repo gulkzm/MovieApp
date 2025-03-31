@@ -42,6 +42,7 @@ class HomeCell: UICollectionViewCell {
     private var data: [MovieResult] = []
     
     var seeAllCallback: (() -> Void)?
+    var didMovieSelected: ((MovieResult) -> Void)?
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -97,6 +98,10 @@ extension HomeCell: UICollectionViewDataSource, UICollectionViewDelegate, UIColl
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "ImageLabelCell", for: indexPath) as! ImageLabelCell
         cell.configure(data: data[indexPath.item])
         return cell
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        didMovieSelected?(data[indexPath.item])
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
